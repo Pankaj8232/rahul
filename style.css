@@ -1,0 +1,422 @@
+#header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+}
+
+#headersection{
+    display: flex;
+    margin-left: 88px;
+    gap: 93px;
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+
+#logo{
+    margin-top: -20px;
+    height: 70px;
+    margin-left: 14px;
+}
+
+#banner , .bg1{
+    background-image: url(image/cab1-1.jpg.webp);
+    height: 564px;
+    background-size: cover;
+    box-shadow:5px 10px 18px #888888 ;
+    margin-top: -25px;
+}
+
+#whatsapp{
+    position: fixed;
+    color: rgb(57, 227, 57);
+    left: 30px;
+    bottom: 50px;
+    font-size: 70px;
+}
+
+#book{
+    height: 162px;
+    width: 70%;
+    border: 1px solid black;
+    margin-left: 191px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5px;
+}
+
+input{
+    height: 26px;
+    width: 259px;
+}
+
+input:hover{
+    background-color:black;
+    color: white;
+}
+
+#button1{
+    background-color: rgb(40, 40, 184);
+    height: 30px;
+    width: 15%;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#banner2{
+    display: flex;
+}
+
+#car-rental{
+    height: 250px;
+    width: 50%;
+    margin-left: 98px;
+    margin-top: 92px;
+    color: rgba(0, 0, 0, 0.499);
+}
+
+#paragraph1{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#logo2{
+    height: 300px;
+    width: 400px;
+    margin-left: 46px;
+    margin-top: 70px;
+    background-image: url(logo2.jpg);
+    background-size: cover;
+}
+
+#fleet{
+    background-color:rgb(61, 61, 222) ;
+    height: 250px;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#fleet1{
+    height: 200px;
+    width: 25%;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#heading2{
+    font-size: 30px;
+      color: rgba(0, 0, 0, 0.608);
+}
+
+#paragraph2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.499);    
+}
+
+#range{
+    margin-top: 30px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.661) ;
+    width: 70%;
+    margin-left: 228px;
+}
+
+#paragraph3{
+    line-height: 30px;
+    color:rgba(0, 0, 0, 0.499);
+    font-size: 20px;
+    text-align: center;
+}
+
+#choose{
+    text-align: center;
+    display: flex;
+}
+
+.cost{
+     height: 200px;
+    width: 25%;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: #80b0c1 0px 5px 15px;
+    margin-left: 95px;
+}
+
+#heading4{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.668);
+}
+
+#costlogos{
+    color: rgb(85, 85, 240);
+    font-size: 70px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#costlogos::after{
+    content: "";
+    background-color: rgb(85, 85, 240) ;
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    transition: all 1s;
+    bottom: -5px;
+    left: 0px;
+}
+
+#costlogos:hover::after{
+    width: 100%;
+}
+
+
+#jaipurtour{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 70px;
+    
+}
+
+
+#monuments{
+    height: 300px;
+    width: 20%;
+    background-image: url(./image/hawa\ mahal.webp);
+    background-size: cover;
+    margin-left: 40px;
+}
+
+#monuments1{
+    height: 300px;
+    width: 20%;
+    background-image: url(./image/Jal-Mahal.webp);
+    background-size: cover;
+}
+
+#monuments2{
+    height: 300px;
+    width: 20%;
+    background-image: url(./image/Jaigarh-Fort.webp);
+    background-size: cover;
+
+}
+
+#monuments3{
+    height: 300px;
+    width: 20%;
+    background-image: url(./image/Jantar-Mantar.webp);
+    background-size: cover;
+}
+
+#bgtour{
+    background-color: #f5f5f5;
+}
+
+#tour{
+    text-align: center;
+    margin-top: 60px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+#minibox{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 268px;
+    background-color: rgba(135, 207, 235, 0.329);
+    color: white;
+}
+
+#view{
+    width: 12%;
+    color: white;
+    background-color: #208AD9;
+    height: 39px;
+    margin-left: 20px;
+    margin-top: 87px;
+    border-radius: 40px;
+    font-size: 21px;
+}
+
+#viewbutton{
+    text-align: center;
+}
+
+#client{
+    margin-top: 40px;
+}
+
+
+#heading5{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.668);
+}
+
+#review{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rakesh{
+    width: 35%;
+    border: 1px solid rgba(0, 0, 0, 0.235);
+    height: 250px;
+    border-radius: 10px;
+}
+
+#paragraphreview{
+    line-height: 32px;
+    color:rgba(0, 0, 0, 0.635) ;
+    text-align: left;
+    font-size: 19px;
+    padding: 10px;
+}
+
+#name{
+    text-align: end;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.702);
+}
+
+#footerparagraph{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+#footerheading{
+    color: rgba(0, 0, 0, 0.721);
+}
+
+#footerpara1{
+    font-size: 20px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.525);
+}
+
+
+#footer{
+    height: 300px;
+    background-color: rgb(85,85, 240);
+    padding: 20px;
+    gap: 80px;
+    display: flex;
+    margin-top: 40px;
+}
+
+#footer1{
+    height: 270px;
+    margin-left: 20px;
+    width: 22%;
+}
+
+
+#footerpara2{
+    font-size: 19px;
+    line-height: 32px;
+    color: white;
+    text-align: left;
+}
+
+#footerpara3{
+    font-size: 19px;
+    line-height: 32px;
+    color: white;
+    text-align: left;
+    margin-left:-25px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#belowfooter{
+ background-color: rgb(85,85, 240);
+ height: 100px;
+ margin-top: -19px;
+}
+
+#belowfooter2{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+}
+
+
+
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper .swiper-slide{
+        background-image: url("./car\ rental\ banner.avif");
+        height: 300px;
+    }
+
+
+
+
+@media (max-width:578px){
+
+    #banner , .bg1{
+        width: 200px;
+        height: 100px;
+        margin-left: 20px
+    }
+    #book{
+        margin-left: 20px;
+        height: auto;
+    }
+    input{
+    width: 100px;
+}
+#button1{
+margin-bottom: 20px;
+width: 40%;
+background-color: black;
+
+
+}
+}
+
+@media (min-width: 578px) and (max-width: 900px) {
+    #banner,
+    .bg1 {
+        width: 900px;
+    }
+     #book{
+       
+        height: auto;
+    }
+    #button1{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
