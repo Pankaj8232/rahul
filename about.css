@@ -1,0 +1,27 @@
+#header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+}
+
+#headersection{
+    display: flex;
+    margin-left: 88px;
+    gap: 93px;
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+
+#logo{
+    margin-top: -20px;
+    height: 70px;
+    margin-left: 14px;
+}
+
+.a2{
+    text-decoration: none;
+    color: black;
+}
