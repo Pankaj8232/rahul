@@ -1,0 +1,131 @@
+#header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+}
+
+#headersection{
+    display: flex;
+    margin-left: 88px;
+    gap: 93px;
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+
+#logo{
+    margin-top: -20px;
+    height: 70px;
+    margin-left: 14px;
+}
+
+.a2{
+    text-decoration: none;
+    color: black;
+}
+
+
+#banner{
+    background-image: url(./image/jaipur\ logo\ 2.jpg);
+    height: 550px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+}
+
+#heading1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.719);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#paragraph1{
+    color: rgba(0, 0, 0, 0.599);
+    font-size: 20px;
+    text-align: left;
+    padding: 12px;
+    line-height: 27px;
+}
+
+#box1{
+    margin-top: 20px;
+}
+
+#heading2{
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.679);
+}
+
+
+#paragraph2{
+    color: rgba(0, 0, 0, 0.599);
+    font-size: 20px;
+    text-align: left;
+    padding: 12px;
+    line-height: 27px;
+    margin-left: 16px;
+}
+
+#footerpara1{
+    font-size: 20px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.525);
+}
+
+
+#footer{
+    height: 300px;
+    background-color: rgb(85,85, 240);
+    padding: 20px;
+    gap: 80px;
+    display: flex;
+    margin-top: 40px;
+}
+
+#footer1{
+    height: 270px;
+    margin-left: 20px;
+    width: 22%;
+}
+
+
+#footerpara2{
+    font-size: 19px;
+    line-height: 32px;
+    color: white;
+    text-align: left;
+}
+
+#footerpara3{
+    font-size: 19px;
+    line-height: 32px;
+    color: white;
+    text-align: left;
+    margin-left:-25px;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#belowfooter{
+ background-color: rgb(85,85, 240);
+ height: 100px;
+ margin-top: -19px;
+}
+
+#belowfooter2{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+}
+
+
